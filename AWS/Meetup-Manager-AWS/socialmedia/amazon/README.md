@@ -1,0 +1,1 @@
+Formulate email in format Amazon needs to post events.
