@@ -20,6 +20,13 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func TouchDown(sender: AnyObject) {
+        //Do something here
+        let alert = UIAlertController(title: "Dude.", message: "You pushed the button!", preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Cancel, handler: nil))
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+    }
 
 }
 
