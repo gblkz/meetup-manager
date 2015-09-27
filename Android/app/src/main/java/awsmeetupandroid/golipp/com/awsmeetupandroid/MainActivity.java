@@ -37,9 +37,33 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void btnLoadClicked(View v){
+    /**
+     * Button to execute Lambda function that posts Meetup event to Facebook.
+     * @param v
+     */
+    public void btnFBClicked(View v) {
         // TODO: 9/10/2015 create button handler.
         // Placeholder toast.
-        Toast.makeText(MainActivity.this, "Load button clicked!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Call Lambda f(x) to post event to Facebook", Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * Button to execute Lambda function that posts Meetup event to Twitter.
+     * @param v
+     */
+    public void btnTwtClicked(View v) {
+        // // TODO: 9/26/2015 create button handler.
+        // Placeholder toast.
+        Toast.makeText(MainActivity.this, "Call Lambda f(x) to post event to Twitter", Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * Button to execute Lambda function that posts Meetup event to Word Press.
+     * @param v
+     */
+    public void btnWPClicked(View v) {
+        // // TODO: 9/26/2015 create button handler.
+        // Placeholder toast.
+        Toast.makeText(MainActivity.this, "Call Lambda f(x) to post event to Word Press", Toast.LENGTH_SHORT).show();
     }
 }

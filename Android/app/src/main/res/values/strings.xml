@@ -3,5 +3,7 @@
 
     <string name="hello_world">Meetup Mobile app placeholder.</string>
     <string name="action_settings">Settings</string>
-    <string name="btnLoad">Load</string>
+    <string name="btnFBLoad">FB API</string>
+    <string name="btnTwtLoad">Twitter API</string>
+    <string name="btnWPLoad">WP API</string>
 </resources>

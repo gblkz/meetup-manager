@@ -15,12 +15,30 @@
         android:text="@string/hello_world" />
 
     <Button
-        android:id="@+id/btnLoad"
+        android:id="@+id/btnFBLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:text="@string/btnLoad"
-        android:onClick="btnLoadClicked" />
+        android:text="@string/btnFBLoad"
+        android:onClick="btnFBClicked" />
+
+    <Button
+        android:id="@+id/btnTwtLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTwtLoad"
+        android:onClick="btnTwtClicked"
+        android:layout_below="@+id/btnWPLoad"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnWPLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnWPLoad"
+        android:onClick="btnWPClicked"
+        android:layout_below="@+id/btnFBLoad"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
